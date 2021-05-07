@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(94, 88, 88);
+
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  margin: 7px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px 1px rgba(55, 95, 123, 0.7);
+}
+
+.default-validator {
+  border: 2px solid rgb(155, 155, 155);
+  box-shadow: 0px 0px 3px 0px rgba(155, 155, 155, 0.7);
+}
+
+.correct-validator{
+  color: rgb(94, 94, 94);
+  border: 2px solid rgb(128, 211, 4);
+  box-shadow: 0px 0px 3px 0px rgba(113, 187, 2, 0.7);
+}
+
+.wrong-validator {
+  color: rgb(116, 29, 29);
+  border: 2px solid rgb(211, 4, 4);
+  box-shadow: 0px 0px 3px 0px rgba(211, 4, 4, 0.7);
+}
